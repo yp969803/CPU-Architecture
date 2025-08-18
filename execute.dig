@@ -37,7 +37,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>A</string>
+          <string>value</string>
         </entry>
         <entry>
           <string>Bits</string>
