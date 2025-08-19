@@ -23,7 +23,7 @@
       <elementAttributes>
         <entry>
           <string>Input Splitting</string>
-          <string>16,2,2,2,2,3,5</string>
+          <string>16,2,2,2,2,3,1,4</string>
         </entry>
         <entry>
           <string>Output Splitting</string>
@@ -109,10 +109,10 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>5</int>
+          <int>4</int>
         </entry>
       </elementAttributes>
-      <pos x="900" y="220"/>
+      <pos x="900" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -175,18 +175,14 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>add</string>
+          <string>tworeg</string>
         </entry>
         <entry>
           <string>intFormat</string>
-          <intFormat>decSigned</intFormat>
-        </entry>
-        <entry>
-          <string>InDefault</string>
-          <value v="1" z="false"/>
+          <intFormat>hex</intFormat>
         </entry>
       </elementAttributes>
-      <pos x="240" y="360"/>
+      <pos x="720" y="300"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -263,6 +259,34 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
+          <string>add</string>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>decSigned</intFormat>
+        </entry>
+        <entry>
+          <string>InDefault</string>
+          <value v="1" z="false"/>
+        </entry>
+      </elementAttributes>
+      <pos x="240" y="360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="740" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
           <string>jump</string>
         </entry>
         <entry>
@@ -275,16 +299,6 @@
         </entry>
       </elementAttributes>
       <pos x="320" y="500"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="740" y="420"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -329,6 +343,10 @@
       <p2 x="740" y="460"/>
     </wire>
     <wire>
+      <p1 x="720" y="300"/>
+      <p2 x="800" y="300"/>
+    </wire>
+    <wire>
       <p1 x="720" y="240"/>
       <p2 x="780" y="240"/>
     </wire>
@@ -365,8 +383,16 @@
       <p2 x="580" y="380"/>
     </wire>
     <wire>
+      <p1 x="800" y="220"/>
+      <p2 x="900" y="220"/>
+    </wire>
+    <wire>
       <p1 x="800" y="80"/>
       <p2 x="800" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="220"/>
+      <p2 x="800" y="300"/>
     </wire>
     <wire>
       <p1 x="820" y="200"/>
