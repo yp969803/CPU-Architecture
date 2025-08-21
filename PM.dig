@@ -23,7 +23,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>32</int>
+          <int>16</int>
         </entry>
       </elementAttributes>
       <pos x="520" y="380"/>
@@ -51,7 +51,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>32</int>
+          <int>16</int>
         </entry>
       </elementAttributes>
       <pos x="900" y="380"/>

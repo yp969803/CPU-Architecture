@@ -23,7 +23,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>16</int>
+          <int>32</int>
         </entry>
       </elementAttributes>
       <pos x="260" y="60"/>
@@ -33,7 +33,7 @@
       <elementAttributes>
         <entry>
           <string>Bits</string>
-          <int>16</int>
+          <int>32</int>
         </entry>
       </elementAttributes>
       <pos x="720" y="60"/>
@@ -43,7 +43,7 @@
       <elementAttributes>
         <entry>
           <string>Bits</string>
-          <int>16</int>
+          <int>32</int>
         </entry>
       </elementAttributes>
       <pos x="720" y="200"/>
@@ -53,7 +53,7 @@
       <elementAttributes>
         <entry>
           <string>Bits</string>
-          <int>16</int>
+          <int>32</int>
         </entry>
       </elementAttributes>
       <pos x="720" y="340"/>
@@ -63,7 +63,7 @@
       <elementAttributes>
         <entry>
           <string>Bits</string>
-          <int>16</int>
+          <int>32</int>
         </entry>
       </elementAttributes>
       <pos x="720" y="480"/>
@@ -77,7 +77,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>16</int>
+          <int>32</int>
         </entry>
         <entry>
           <string>intFormat</string>
@@ -95,7 +95,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>16</int>
+          <int>32</int>
         </entry>
         <entry>
           <string>intFormat</string>
@@ -113,7 +113,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>16</int>
+          <int>32</int>
         </entry>
         <entry>
           <string>intFormat</string>
@@ -131,7 +131,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>16</int>
+          <int>32</int>
         </entry>
         <entry>
           <string>intFormat</string>
@@ -149,7 +149,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>16</int>
+          <int>32</int>
         </entry>
         <entry>
           <string>flipSelPos</string>
@@ -167,7 +167,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>16</int>
+          <int>32</int>
         </entry>
         <entry>
           <string>intFormat</string>
@@ -239,7 +239,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>16</int>
+          <int>32</int>
         </entry>
         <entry>
           <string>intFormat</string>
@@ -267,7 +267,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>16</int>
+          <int>32</int>
         </entry>
         <entry>
           <string>intFormat</string>
@@ -285,7 +285,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>16</int>
+          <int>32</int>
         </entry>
       </elementAttributes>
       <pos x="1040" y="700"/>
