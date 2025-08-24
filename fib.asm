@@ -7,11 +7,11 @@
 }
 
 #ruledef {
-  add {rd: reg}, {value} =>           value`8 @ 0`2 @ rd`2 @ 0`3 @ 0`1 
-  add {rd: reg}, {rs: reg} =>         0`8 @ rs`2 @ rd`2 @ 0`3 @ 1`1 
-  move {rd: reg}, {value} =>          value`8 @ 0`2 @ rd`2 @ 6`3 @ 0`1 
-  move {rd: reg}, {rs: reg} =>         0`8 @ rs`2 @ rd`2 @ 6`3 @ 1`1 
-  jump {value} =>                     value`8 @ 0`2 @ 0`2 @ 7`3 @ 0`1 
+  add {rd: reg}, {value}    =>      value`8 @ 0`2  @ rd`2 @ 0`3 @ 0`1 
+  add {rd: reg}, {rs: reg}  =>      0`8     @ rs`2 @ rd`2 @ 0`3 @ 1`1 
+  move {rd: reg}, {value}   =>      value`8 @ 0`2  @ rd`2 @ 6`3 @ 0`1 
+  move {rd: reg}, {rs: reg} =>      0`8     @ rs`2 @ rd`2 @ 6`3 @ 1`1 
+  jump {value}              =>      value`8 @ 0`2  @ 0`2  @ 7`3 @ 0`1 
 }
 
 fibonacci:
