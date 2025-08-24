@@ -455,12 +455,12 @@
       <elementName>Multiplexer</elementName>
       <elementAttributes>
         <entry>
-          <string>Bits</string>
-          <int>7</int>
-        </entry>
-        <entry>
           <string>Selector Bits</string>
           <int>3</int>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>7</int>
         </entry>
       </elementAttributes>
       <pos x="500" y="720"/>
@@ -473,12 +473,12 @@
           <long>39</long>
         </entry>
         <entry>
-          <string>intFormat</string>
-          <intFormat>ascii</intFormat>
-        </entry>
-        <entry>
           <string>Bits</string>
           <int>7</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>ascii</intFormat>
         </entry>
       </elementAttributes>
       <pos x="460" y="720"/>
@@ -560,7 +560,7 @@
       <elementAttributes>
         <entry>
           <string>Value</string>
-          <long>39</long>
+          <long>77</long>
         </entry>
         <entry>
           <string>Bits</string>
@@ -718,7 +718,7 @@
       <elementAttributes>
         <entry>
           <string>Value</string>
-          <long>39</long>
+          <long>85</long>
         </entry>
         <entry>
           <string>Bits</string>
@@ -876,7 +876,7 @@
       <elementAttributes>
         <entry>
           <string>Value</string>
-          <long>39</long>
+          <long>83</long>
         </entry>
         <entry>
           <string>Bits</string>
@@ -1034,7 +1034,7 @@
       <elementAttributes>
         <entry>
           <string>Value</string>
-          <long>39</long>
+          <long>84</long>
         </entry>
         <entry>
           <string>Bits</string>
@@ -1192,7 +1192,7 @@
       <elementAttributes>
         <entry>
           <string>Value</string>
-          <long>39</long>
+          <long>69</long>
         </entry>
         <entry>
           <string>Bits</string>
@@ -1350,7 +1350,7 @@
       <elementAttributes>
         <entry>
           <string>Value</string>
-          <long>39</long>
+          <long>81</long>
         </entry>
         <entry>
           <string>Bits</string>
