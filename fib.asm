@@ -1,4 +1,3 @@
-#bits 16
 
 #subruledef reg {
   r0 => 0
