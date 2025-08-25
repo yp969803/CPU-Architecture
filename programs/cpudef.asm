@@ -1,3 +1,9 @@
+#bankdef data
+{
+  #bits 16
+	#outp 0
+}
+
 
 #subruledef reg {
   r0 => 0
